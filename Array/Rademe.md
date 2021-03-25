@@ -5,6 +5,36 @@
 - 所有的元素需要是同一类型（个别的语言除外）
 - 可以通过下标索引获取到所储存的元素（随机访问）。 比如 array[index]
 - 下标可以是是 0 到 array.length - 1 的任意整数
+
+
+****
+以Java为例
+
+- 声明数组变量
+
+```java
+
+int [] arr;       //首选方法
+int arr[];        //相同效果，非首选方法
+```
+
+- 创建数组
+
+Java语言使用new操作符来创建数组，语法如下：
+```java
+arrayRefVar = new dataType[arraySize];
+//上面的语法语句做了两件事：
+//一、使用 dataType[arraySize] 创建了一个数组。
+//二、把新创建的数组的引用赋值给变量 arrayRefVar
+```
+
+- 数组变量的声明，和创建数组可以用一条语句完成，如下所示：
+```java
+dataType[] arrayRefVar = new dataType[arraySize];
+```
+*****
+
+
 ### [2、数组的常规操作]()
 数组的基本操作及[复杂度分析](https://blog.csdn.net/qq_35478489/article/details/98482371)
 
