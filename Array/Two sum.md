@@ -20,13 +20,15 @@
 链接：https://leetcode-cn.com/problems/plus-one
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 ```
-
+## 思路
 ### 思路1：暴力法
 
-从数组首元素开始遍历，
-创建一个新数组用来保存返回结果的下标。
+1、创建一个新数组用来保存返回结果的下标。
+2、遍历给定数组，当前下标为i，判断数组内是否存在元素与 i 相加等于 target
+3、符合条件返回结果.
 
 ### 代码
+Java:
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -46,4 +48,5 @@ class Solution {
 }
 ```
 ### 复杂度分析
-### [参考思路](https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-hundoushell-g4cm/)
+- 时间复杂度：O(N*2),其中 NN 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。
+- 空间复杂度：O(1)
