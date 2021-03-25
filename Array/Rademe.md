@@ -72,3 +72,26 @@ print(arr) //[1,2,5,33]
 - 从数组删除数值 -> O(N)
 - 从数组最后删除数值 -> O(1)
 
+
+#### 每日一题
+
+- [ ]  [【day-01】66.加一](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/01.plus-one.md)
+- [ ]  [【day-02】821.字符的最短距离](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/02.shortest-distance-to-a-character.md)
+- [ ]  [【day-03】1381.设计一个支持增量操作的栈](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/03.design-a-stack-with-increment-operation.md)
+- [ ]  [【day-04】394.字符串解码](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/04.decode-string.md)
+- [ ]  [【day-05】232.用栈实现队列](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/05.implement-queue-using-stacks.md)
+- [ ]  [【day-06】768.最多能完成排序的块 II](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/06.max-chunks-to-make-sorted-ii.md)
+
+#### 数组拓展题目
+
+- [ ]  [75.颜色分类](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/ext-sort-colors.md)
+- [ ]  [28.实现 strStr()](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/ext-implement-strstr.md)
+- [ ]  [380.常数时间插入、删除和获取随机元素](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/ext-insert-delete-getrandom-o1.md)
+- [ ]  [189.旋转数组](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/ext-rotate-array.md)
+- [ ]  [59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+- [ ]  [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)
+
+- [ ]  [380.常数时间插入、删除和获取随机元素](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/ext-insert-delete-getrandom-o1.md)
+- [ ]  [189.旋转数组](https://github.com/suukii/91-days-algorithm/blob/master/basic/array-stack-queue/ext-rotate-array.md)
+- [ ]  [59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+- [ ]  [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)
