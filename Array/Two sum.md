@@ -49,6 +49,24 @@ class Solution {
     }
 }
 ```
+
+C:
+```c
+int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
+    for (int i = 0; i < numsSize; ++i) {
+        for (int j = i + 1; j < numsSize; ++j) {
+            if (nums[i] + nums[j] == target) {
+                int* ret = malloc(sizeof(int) * 2);//按照提示申请动态数组
+                ret[0] = i, ret[1] = j;
+                *returnSize = 2;
+                return ret;
+            }
+        }
+    }
+ //   *returnSize = 0;
+    return NULL;
+}
+```
 ### 复杂度分析
 - 时间复杂度：O(N*2),其中 NN 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。
 - 空间复杂度：O(1)
