@@ -75,23 +75,19 @@ print(arr) //[1,2,5,33]
 
 #### 每日一题
 
-- [ ]  [【day-01】66.加一]()
-- [ ]  [【day-02】821.字符的最短距离]()
-- [ ]  [【day-03】1381.设计一个支持增量操作的栈]()
-- [ ]  [【day-04】394.字符串解码]()
-- [ ]  [【day-05】232.用栈实现队列]()
-- [ ]  [【day-06】768.最多能完成排序的块 II]()
+- [ ]  [【day-01】66.加一](https://leetcode-cn.com/problems/plus-one/)
+- [ ]  [【day-02】821.字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)
+- [ ]  [【day-03】1381.设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/)
+- [ ]  [【day-04】394.字符串解码](https://leetcode-cn.com/problems/decode-string/)
+- [ ]  [【day-05】232.用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- [ ]  [【day-06】768.最多能完成排序的块 II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/)
 
 #### 数组拓展题目
 
-- [ ]  [75.颜色分类]()
-- [ ]  [28.实现 strStr()]()
-- [ ]  [380.常数时间插入、删除和获取随机元素]()
-- [ ]  [189.旋转数组]()
-- [ ]  [59. 螺旋矩阵 II]()
-- [ ]  [859. 亲密字符串]()
+- [ ]  [75.颜色分类](https://leetcode-cn.com/problems/sort-colors/)
+- [ ]  [28.实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+- [ ]  [380.常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
+- [ ]  [189.旋转数组](https://leetcode-cn.com/problems/rotate-array/)
+- [ ]  [59. 螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)
+- [ ]  [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)
 
-- [ ]  [380.常数时间插入、删除和获取随机元素]()
-- [ ]  [189.旋转数组]()
-- [ ]  [59. 螺旋矩阵 II]()
-- [ ]  [859. 亲密字符串]()
