@@ -75,7 +75,7 @@ print(arr) //[1,2,5,33]
 
 #### 每日一题
 
-- [ⅹ]  [【day-01】66.加一](https://github.com/zoeaaa/Algorithm-/blob/main/Array/Plus%20One.md)
+- [x]  [【day-01】66.加一](https://github.com/zoeaaa/Algorithm-/blob/main/Array/Plus%20One.md)
 - [ ]  [【day-02】821.字符的最短距离](https://leetcode-cn.com/problems/shortest-distance-to-a-character/)
 - [ ]  [【day-03】1381.设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/)
 - [ ]  [【day-04】394.字符串解码](https://leetcode-cn.com/problems/decode-string/)
