@@ -1,4 +1,4 @@
-## 数组
+## 数组、栈、队列
 ### [1、数组特性](https://github.com/leetcode-pp/91alg-2/blob/master/lecture/basic-01.md)
 - 一个数组表示的是一系列的元素
 - 数组（static array）的长度是固定的，一旦创建就不能改变（但是可以有 dynamic array）
