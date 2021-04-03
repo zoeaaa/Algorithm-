@@ -100,6 +100,42 @@ print(arr) //[1,2,5,33]
 - 取栈顶 - top - 得到栈顶元素的值
 - 判断是否为空栈 - isEmpty - 判断栈内是否有元素
 由于栈只允许在尾部操作，我们用数组进行模拟的话，可以很容易达到 O(1)的时间复杂度。
+```java
+import java.util.Stack;
+ 
+public class StackTest {
+ 
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+ 
+		Stack<Integer> stack = new Stack<Integer>();
+ 
+		for (int i = 0; i < 5; i++) {
+			stack.push(i);
+		}
+		
+		System.out.println("isEmpty:"+stack.isEmpty());//判断栈内是否有元素
+		System.out.println("capacity:"+stack.capacity());//获取栈的容量
+		System.out.println("peek:"+stack.peek());//取堆栈顶点
+ 
+		System.out.println("*********遍历操作**********");
+		
+		// 集合遍历方式
+		for (Integer x : stack) {
+			System.out.println(x);
+		}
+		System.out.println("--------------------------");
+		// 栈弹出遍历方式
+		// while (s.peek()!=null) { //不健壮的判断方式，容易抛异常，正确写法是下面的
+		while (!stack.empty()) {
+			System.out.println(stack.pop());
+		}
+		
+	}
+}
+```
 
 > 当然也可以用链表实现，即链式栈。
 
