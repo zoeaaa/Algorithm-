@@ -79,7 +79,44 @@ class Solution {
 执行用时：6 ms, 在所有 Java 提交中击败了17.44%的用户
 内存消耗：38.7 MB, 在所有 Java 提交中击败了29.60%的用户
 ```
+
 ******
+
 ### 思路二：贪心算法（官方题解）
+
+向左向右各遍历一次，得出当前字符与c的距离，然后比较大小。
+
 ### 代码
+
+```java
+class Solution {
+    public int[] shortestToChar(String s, char c) {
+        int len = s.length();
+        int[] answer = new int[len];
+        int prev = Integer.MIN_VALUE / 2;
+
+         for(int i = 0; i < len ;i++){
+            if(s.charAt(i) == c) prev = i;
+            answer[i] = i - prev;
+         }
+
+        prev = Integer.MAX_VALUE / 2;
+        for(int i = len-1; i >= 0; i--){
+            if(s.charAt(i) == c) prev = i;
+            answer[i] = Math.min(answer[i], prev - i);
+        }
+        return answer; 
+    } 
+}
+```
+
 ### 复杂度分析
+
+- 时间复杂度：O（N^2）
+- 空间复杂度：O(1)
+```
+执行结果：通过
+显示详情
+执行用时：1 ms, 在所有 Java 提交中击败了98.69%的用户
+内存消耗：38.1 MB, 在所有 Java 提交中击败了100.00%的用户
+```
