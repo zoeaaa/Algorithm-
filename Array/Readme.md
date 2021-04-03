@@ -1,5 +1,5 @@
-## 数组、栈、队列
-### [1、数组特性](https://github.com/leetcode-pp/91alg-2/blob/master/lecture/basic-01.md)
+# 数组、栈、队列
+## [1、数组特性](https://github.com/leetcode-pp/91alg-2/blob/master/lecture/basic-01.md)
 - 一个数组表示的是一系列的元素
 - 数组（static array）的长度是固定的，一旦创建就不能改变（但是可以有 dynamic array）
 - 所有的元素需要是同一类型（个别的语言除外）
@@ -35,7 +35,7 @@ dataType[] arrayRefVar = new dataType[arraySize];
 *****
 
 
-### [2、数组的常规操作]()
+## [2、数组的常规操作]()
 数组的基本操作及[复杂度分析](https://blog.csdn.net/qq_35478489/article/details/98482371)
 
 1、随机访问，时间复杂度O(1)
@@ -63,7 +63,7 @@ print(arr) //[1,2,5,33]
 - pop(index)：删除数组中索引为 index 的元素
 - insert(item, index)：数组索引为 index 处插入元素
 
- #### 时间复杂度小结 
+ ### 时间复杂度小结 
 - 随机访问 -> O(1)
 - 根据索引修改 -> O(1)
 - 遍历数组 -> O(N)
@@ -73,7 +73,7 @@ print(arr) //[1,2,5,33]
 - 从数组最后删除数值 -> O(1)
 
 
-#### 每日一题
+### 每日一题
 
 - [x]  [【day-01】66.加一](https://github.com/zoeaaa/Algorithm-/blob/main/Array/Plus%20One.md)
 - [x]  [【day-02】821.字符的最短距离](https://github.com/zoeaaa/Algorithm-/blob/main/Array/Shortest%20Distance%20to%20a%20Character.md)
