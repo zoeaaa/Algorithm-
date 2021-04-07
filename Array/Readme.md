@@ -78,7 +78,7 @@ print(arr) //[1,2,5,33]
 - [x]  [【day-01】66.加一](https://github.com/zoeaaa/Algorithm-/blob/main/Array/Plus%20One.md)
 - [x]  [【day-02】821.字符的最短距离](https://github.com/zoeaaa/Algorithm-/blob/main/Array/Shortest%20Distance%20to%20a%20Character.md)
 - [ ]  [【day-03】1381.设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/)
-- [x]  [【day-04】394.字符串解码](https://leetcode-cn.com/problems/decode-string/)
+- [x]  [【day-04】394.字符串解码](https://github.com/zoeaaa/Algorithm-/blob/main/Array/394%E3%80%81Decode%20String.md)
 - [ ]  [【day-05】232.用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
 - [ ]  [【day-06】768.最多能完成排序的块 II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii/)
 
