@@ -149,5 +149,5 @@ public class StackTest {
 
 题目推荐
 - [ ] [1381. 设计一个支持增量操作的栈]()
-- [ ] [394. 字符串解码]()
+- [x] [394. 字符串解码](https://github.com/zoeaaa/Algorithm-/blob/main/Array/394%E3%80%81Decode%20String.md)
 - [ ] [946. 验证栈序列]()
