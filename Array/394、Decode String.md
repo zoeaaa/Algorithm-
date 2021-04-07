@@ -59,7 +59,9 @@ class Solution {
 
         for(Character c : s.toCharArray()){//
             if(c >= '0' && c <= '9'){
-                num = num * 10 + c -'0';//获得倍数
+            //获得倍数
+            //ascall码相减得到的才是数字差，如果不减的话数字的char会被解析成数字，比如‘0’对应48，所以需要减‘0’
+                num = num * 10 + c -'0';
             }else if(c == '['){
                 nums.push(num);//将num入栈
                 num = 0;//num置0
