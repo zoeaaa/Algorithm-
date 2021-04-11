@@ -172,12 +172,12 @@ public class StackTest {
 
 ### 推荐题目
 
-- [min-stack](https://leetcode-cn.com/problems/min-stack/)
-- [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
-- [decode-string](https://leetcode-cn.com/problems/decode-string/)
-- [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-- [clone-graph](https://leetcode-cn.com/problems/clone-graph/)
-- [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)
-- [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
-- [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
-- [01-matrix](https://leetcode-cn.com/problems/01-matrix/)
+- [ ] [155、最小栈](https://leetcode-cn.com/problems/min-stack/)
+- [ ] [150、逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+- [ ] [394、字符串解码](https://leetcode-cn.com/problems/decode-string/)
+- [ ] [94、二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [ ] [133、克隆图](https://leetcode-cn.com/problems/clone-graph/)
+- [ ] [200、岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+- [ ] [84、柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+- [ ] [232、用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- [ ] [542、01 矩阵](https://leetcode-cn.com/problems/01-matrix/)
