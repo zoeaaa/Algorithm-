@@ -92,7 +92,7 @@ print(arr) //[1,2,5,33]
 - [ ]  [859. 亲密字符串](https://leetcode-cn.com/problems/buddy-strings/)
 
 ## [2、栈]()
-- 后进先 出
+- 后进先出
 
 ### 栈的常用操作与时间复杂度
 - 进栈 - push - 将元素放置到栈顶
