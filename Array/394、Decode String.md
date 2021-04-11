@@ -1,4 +1,4 @@
-# [394、字符串姐解码](https://leetcode-cn.com/problems/decode-string/)
+# [394、字符串解码](https://leetcode-cn.com/problems/decode-string/)
 
 ## 题目描述
 ```
