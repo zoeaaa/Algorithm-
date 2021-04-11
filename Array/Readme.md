@@ -151,3 +151,33 @@ public class StackTest {
 - [ ] [1381. 设计一个支持增量操作的栈]()
 - [x] [394. 字符串解码](https://github.com/zoeaaa/Algorithm-/blob/main/Array/394%E3%80%81Decode%20String.md)
 - [ ] [946. 验证栈序列]()
+
+## [3、队列]()
+
+- 先进先出
+
+队列也是一种逻辑结构，底层可以用数组实现，也可以用链表实现，不同实现有不同的取舍。如果用数组实现，那么入队或者出队的时间复杂度一定有且仅有一个是$O(N)$的，其中 $N$ 为队列的长度。而使用链表实现则可以在 $O(1)$ 的时间完成任何合法的队列操作。这得益于链表对动态添加和删除的友好性。
+
+### 队列的操作与时间复杂度
+
+- 插入 - 在队列的尾部添加元素
+- 删除 - 在队列的头部删除元素
+- 查看首个元素 - 返回队列头部的元素的值
+
+时间复杂度取决于你的底层实现是数组还是链表。我们知道直接用数组模拟队列的话， 在队头删除元素是无法达到 O(1) 的复杂度的， 上面提到了由于存在调整数组的原因，时间复杂度为`O(N)`。因此我们需要一种别的方式，这种方式就是下面要讲的 Linked List。 以链表为例，其时间复杂度：
+
+- 插入 - O(1)
+- 删除 - O(1)
+- 查看首个元素 - O(1)
+
+### 推荐题目
+
+- [min-stack](https://leetcode-cn.com/problems/min-stack/)
+- [evaluate-reverse-polish-notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+- [decode-string](https://leetcode-cn.com/problems/decode-string/)
+- [binary-tree-inorder-traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [clone-graph](https://leetcode-cn.com/problems/clone-graph/)
+- [number-of-islands](https://leetcode-cn.com/problems/number-of-islands/)
+- [largest-rectangle-in-histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+- [implement-queue-using-stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- [01-matrix
