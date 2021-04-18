@@ -1,5 +1,5 @@
 ## 每日一题
-- [ ] [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
+- [x] [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [ ] [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
 - [ ] [109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
 - [ ] [160 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
