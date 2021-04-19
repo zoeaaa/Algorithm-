@@ -11,3 +11,7 @@
 选项卡 3
 <!-- endtab -->
 {% endtabs %}
+
+{% label default@默认 %} {% label primary@主要 %} {% label success@成功 %} {% label info@信息 %} {% label warning@警告 %} {% label danger@危险 %}
+
+<font color="#00FF00" size="4px">绿色</font>
