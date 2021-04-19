@@ -1,6 +1,6 @@
 ## 每日一题
 - [x] [24. 两两交换链表中的节点](https://github.com/zoeaaa/Algorithm-/blob/main/Linked%20list/24.%20%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md)
-- [ ] [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
+- [x] [61. 旋转链表](https://github.com/zoeaaa/Algorithm-/blob/main/Linked%20list/61.%20%E6%97%8B%E8%BD%AC%E9%93%BE%E8%A1%A8.md)
 - [ ] [109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
 - [ ] [160 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 - [ ] [142. 环形链表 II]()
