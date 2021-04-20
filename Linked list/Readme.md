@@ -7,7 +7,7 @@
 - [ ] [146. LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
 ## 题目推荐
-- [ ]  [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+- [x]  [21. 合并两个有序链表](https://github.com/zoeaaa/Algorithm-/blob/main/Linked%20list/21.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md)
 - [ ]  [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 - [ ]  [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [ ]  [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)
