@@ -4,7 +4,7 @@
 
 - 完全二叉树
 - 满二叉树
-- [二叉搜索树](https://github.com/zoeaaa/Algorithm-/edit/main/Tree/Readme.md#二叉搜索树)
+- [二叉搜索树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#二叉搜索树)
 - [平衡二叉树]()
 - 红黑树
 - 。。。
