@@ -4,12 +4,12 @@
 
 1. 二叉树的种类：
 
- - 完全二叉树
- - 满二叉树
- - [二叉搜索树(BST)](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#二叉搜索树)
- - [平衡二叉树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#平衡二叉树)
- - 红黑树
- - 。。。
+    - 完全二叉树
+    - 满二叉树
+    - [二叉搜索树(BST)](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#二叉搜索树)
+    - [平衡二叉树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#平衡二叉树)
+    - 红黑树
+    - 。。。
 
 
 
