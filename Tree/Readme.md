@@ -43,11 +43,13 @@
 
 
 递归算法的三个要素：
+
 1. 「确定递归函数的参数和返回值：」确定参与递归的元素；确定每一次递归元素的返回类型，从而确定递归函数的返回类型。
 2. 「确定终止条件：」如果递归没有终止条件，则无法终止程序。操作系统的内存栈必然会溢出。
 3. 「确定单层递归的逻辑：」确定每一层递归的逻辑信息，在之后会反复调用。
 
 以[前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)为例
+
 1、确定函数的参数和返回值
 ```java
 public List<Integer> preorderTraversal(TreeNode root)
