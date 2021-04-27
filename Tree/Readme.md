@@ -37,10 +37,13 @@
 
 ### 递归
 
-> 递归的实现就是：`每一次递归调用都会把函数的局部变量、参数值和返回地址等压入栈中`，然后递归返回的时候，从栈顶弹出上一次递归的各项参数，所以这就是递归为什么可以返回上一层位置的原因。
-
 递归与栈的关系：
 
+<div align=center>
+     
+     ![递归.png](https://i.loli.net/2021/04/27/bAYC25xOcFDu6Zi.png)
+     
+</div>
 
 递归算法的三个要素：
 
@@ -135,4 +138,103 @@ class Solution {
 
 ### 迭代
 
+为什么可以用迭代法（非递归方式）来实现二叉树的前中后序遍历
 
+> 递归的实现就是：`每一次递归调用都会把函数的局部变量、参数值和返回地址等压入栈中`，然后递归返回的时候，从栈顶弹出上一次递归的各项参数，所以这就是递归为什么可以返回上一层位置的原因。
+
+本质上是在模拟递归，因为在递归的过程中使用了系统栈，所以在递归的解法中常用`Stack`来模拟系统栈。
+
+前序遍历
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        if(root == null) return res;
+        TreeNode cur = root;
+        while(cur != null || !stack.isEmpty()){
+            if(cur != null){
+                res.add(cur.val);
+                stack.push(cur);
+                cur = cur.left;
+            }else{
+                cur = stack.pop();
+                cur = cur.right;
+            }
+        }
+        return res;
+    }
+}
+```
+
+中序遍历
+```java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+
+        List<Integer> res = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        TreeNode cur = root;
+
+        while(cur != null || !stack.isEmpty()){
+            if(cur != null){
+                stack.push(cur);
+                cur = cur.left;
+            }else{
+                cur = stack.pop();
+                res.add(cur.val);
+                cur = cur.right;
+            }
+        }
+        return res;
+    }
+}
+```
+
+后序遍历
+```java
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+
+        Stack<TreeNode> resStack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        TreeNode cur = root;
+        while(cur != null || !stack.isEmpty()){
+            if(cur != null){
+                resStack.push(cur);
+                stack.push(cur);
+                cur = cur.right;
+            }else{
+                cur = stack.pop();
+                cur = cur.left;
+            }
+        }
+        List<Integer> res = new ArrayList<>();
+        while(!resStack.isEmpty()){
+            res.add(resStack.pop().val);
+        }
+        return res;
+    }
+}
+```
+
+[迭代统一写法：标记法](https://mp.weixin.qq.com/s/c_zCrGHIVlBjUH_hJtghCg)
