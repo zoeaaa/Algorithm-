@@ -19,7 +19,7 @@
 ### 3. 二叉树的遍历
 
 - 深度优先遍历
-     - [递归]()
+     - [递归](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#递归)
      - 迭代
 - 广度优先遍历
 
