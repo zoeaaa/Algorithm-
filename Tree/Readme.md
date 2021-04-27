@@ -4,26 +4,33 @@
 
 ### 1. 二叉树的种类：
 
-    - 完全二叉树
-    - 满二叉树
-    - [二叉搜索树(BST)](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#二叉搜索树)
-    - [平衡二叉树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#平衡二叉树)
-    - 红黑树
-    - 。。。
+- 完全二叉树
+- 满二叉树
+- [二叉搜索树(BST)](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#二叉搜索树)
+- [平衡二叉树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#平衡二叉树)
+- 红黑树
+- 。。。
 
 ### 2. 二叉树的存储方式
-    - 链式存储（链表存储）
-    - 顺序存储（数组存储）
+
+- 链式存储（链表存储）
+- 顺序存储（数组存储）
 
 ### 3. 二叉树的遍历
-    - 深度优先遍历
-        - 递归
-    - 广度优先遍历
+
+- 深度优先遍历
+     - 递归
+     - 迭代
+- 广度优先遍历
 
 ### 二叉搜索树
+
  二叉搜索树是二叉树的一种，具有以下性质：
+
   1. 左子树的所有节点值小于根的节点值（注意不含等号）
+  
   2. 右子树的所有节点值大于根的节点值（注意不含等号）
+
 另外二叉搜索树的中序遍历结果是一个有序列表。
 
 ### 平衡二叉树
