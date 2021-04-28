@@ -1,6 +1,8 @@
 # [树]()
 
 ## 二叉树
+- [每日一题](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#每日一题)
+- [题目推荐](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#题目推荐)
 
 ## 1. 二叉树的种类
 
@@ -238,3 +240,21 @@ class Solution {
 ```
 
 [迭代统一写法：标记法](https://mp.weixin.qq.com/s/c_zCrGHIVlBjUH_hJtghCg)
+
+### 每日一题
+
+- [ ] [104.二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+- [ ] [100.相同的树](https://leetcode-cn.com/problems/same-tree/)
+- [ ] [129.求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
+- [ ] [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)
+- [ ] [297.二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
+- [ ] [987.二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/)
+
+
+#### 题目推荐
+- [ ] [589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)（熟悉 N 叉树）
+- [ ] [662. 二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) (请分别使用 BFS 和 DFS 解决，空间复杂度尽可能低)
+- [ ] [834. 树中距离之和](https://leetcode-cn.com/problems/sum-of-distances-in-tree/description/)（谷歌面试题）
+- [ ] [967. 连续差相同的数字](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/description/) (隐形树的遍历)
+- [ ] [1145. 二叉树着色游戏](https://leetcode-cn.com/problems/binary-tree-coloring-game/)（树上进行决策）
+
