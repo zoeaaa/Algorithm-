@@ -37,6 +37,7 @@
 
 ## 平衡二叉树
 
+## 深度优先遍历
 ### 递归
 
 递归与栈的关系：
@@ -240,6 +241,76 @@ class Solution {
 ```
 
 [迭代统一写法：标记法](https://mp.weixin.qq.com/s/c_zCrGHIVlBjUH_hJtghCg)
+
+## [广度优先遍历](https://mp.weixin.qq.com/s?__biz=MzA5ODk3ODA4OQ==&mid=2648167212&idx=1&sn=6af5ffe5b69075b21bb4743ddcee4e7c&chksm=88aa236abfddaa7cae70b42edb299d0a52d9f1cc4fc1fdba1116972fc0ca0275b8bfdf10851b&token=1607921395&lang=zh_CN#rd)
+
+**BFS**不是层序遍历。
+
+BFS 的核心在于求最短问题时候可以提前终止，这才是它的核心价值，层次遍历是一种不需要提前终止的 BFS 的副产物。
+
+> 如果仅仅是遍历二叉树的话,DFS会更加方便。BFS更适合用于解决最短路径相关问题。
+
+BFS 遍历使用**队列**数据结构：
+```java
+void bfs(TreeNode root) {
+    Queue<TreeNode> queue = new ArrayDeque<>();
+    queue.add(root);
+    while (!queue.isEmpty()) {
+        TreeNode node = queue.poll(); 
+        if (node.left != null) {
+            queue.add(node.left);
+        }
+        if (node.right != null) {
+            queue.add(node.right);
+        }
+    }
+}
+```
+1. 层序遍历
+
+什么是层序遍历呢？简单来说，就是把二叉树分层，每一层从左到右进行遍历。
+
+层序遍历要求的输出结果和BFS是不同的。层序遍历要求返回的是能区分每一层的二维数组，而BFS返回的结果是一维数组，无法区分。
+
+因此，层序遍历的代码修改为：
+```java
+// 二叉树的层序遍历
+void bfs(TreeNode root) {
+    Queue<TreeNode> queue = new ArrayDeque<>();
+    queue.add(root);
+    while (!queue.isEmpty()) {
+        int n = queue.size();
+        for (int i = 0; i < n; i++) { 
+            // 变量 i 无实际意义，只是为了循环 n 次
+            TreeNode node = queue.poll();
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                queue.add(node.right);
+            }
+        }
+    }
+}
+```
+
+2. 最短路径
+
+在一棵树中，一个结点到另一个结点的路径是唯一的，但在图中，结点之间可能有多条路径，其中哪条路最近呢？这一类问题称为最短路径问题。最短路径问题也是 BFS 的典型应用，而且其方法与层序遍历关系密切。
+
+在二叉树中，BFS 可以实现一层一层的遍历。在图中同样如此。从源点出发，BFS 首先遍历到第一层结点，到源点的距离为 1，然后遍历到第二层结点，到源点的距离为 2…… 可以看到，用 BFS 的话，距离源点更近的点会先被遍历到，这样就能找到到某个点的最短路径了。
+
+
+3. 相关题目
+
+- 102.二叉树的层序遍历
+- 107.二叉树的层次遍历II
+- 199.二叉树的右视图
+- 637.二叉树的层平均值
+- 429.N叉树的前序遍历
+- 515.在每个树行中找最大值
+- 116.填充每个节点的下一个右侧节点指针
+- 117.填充每个节点的下一个右侧节点指针II
 
 ### 每日一题
 
