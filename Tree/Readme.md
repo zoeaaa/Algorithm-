@@ -244,7 +244,7 @@ class Solution {
 ### 每日一题
 
 - [x] [104.二叉树的最大深度](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/104.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md)
-- [ ] [100.相同的树](https://leetcode-cn.com/problems/same-tree/)
+- [x] [100.相同的树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/100.%20%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91.md)
 - [ ] [129.求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/)
 - [ ] [513.找树左下角的值](https://leetcode-cn.com/problems/find-bottom-left-tree-value/)
 - [ ] [297.二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
