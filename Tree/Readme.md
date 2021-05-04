@@ -22,7 +22,7 @@
 
 - 深度优先遍历
      - [递归](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#递归)
-     - [迭代](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md##迭代)
+     - [迭代](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#迭代)
 - 广度优先遍历
 
 ## 二叉搜索树
