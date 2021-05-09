@@ -21,7 +21,12 @@
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 ```
 ## 思路
-### 思路一：暴力法
+
+- [暴力枚举](https://github.com/zoeaaa/Algorithm-/blob/main/Array/1%E3%80%81Two%20sum.md#暴力枚举)
+
+- [哈希表](https://github.com/zoeaaa/Algorithm-/blob/main/Array/1%E3%80%81Two%20sum.md#哈希表)
+
+## 暴力枚举
 
 1、创建一个新数组用来保存返回结果的下标。
 
@@ -70,3 +75,63 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 ### 复杂度分析
 - 时间复杂度：O(n2),其中 NN 是数组中的元素数量。最坏情况下数组中任意两个数都要被匹配一次。
 - 空间复杂度：O(1)
+
+## 哈希表
+
+哈希表可以将寻找 target - x 的时间复杂度降到O(1)。
+
+### 代码
+Java:
+```java []
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+
+        Map<Integer,Integer> Hash = new HashMap<Integer,Integer>();
+        for(int i = 0; i < nums.length; i++){
+            if (Hash.containsKey(target - nums[i])){
+                return new int[] {Hash.get(target - nums[i]),i};//若存在目标，返回结果
+            }
+            Hash.put(nums[i],i);//若不存在目标，将其值存入哈希表
+        }
+    return new int[0];
+    }
+}
+```
+
+Python3:
+```python []
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hashtable = dict();
+        #遍历数组
+        for i , num in enumerate(nums):
+            #在哈希表中寻找target - num
+            if target - num in hashtable:
+                return [hashtable[target - num],i] #若存在，返回结果
+            hashtable[nums[i]] = i #若目标不存在，将数组值存入哈希表
+        return []
+```
+
+Javascipt
+```javascript []
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+
+    let map = new Map();
+    for(let i = 0, len = nums.length; i < len; i++){
+        if(map.has(target - nums[i])){
+            return [map.get(target - nums[i]), i];
+        }else{
+            map.set(nums[i],i);
+        }
+    }
+    return [];
+};
+```
+### 复杂度分析：
+- 时间复杂度：O(N)
+- 空间复杂度：O(N)
