@@ -3,6 +3,7 @@
 ## 二叉树
 - [每日一题](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#每日一题)
 - [题目推荐](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#题目推荐)
+- [Leetcode的树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/Readme.md#Leetcode的树)
 
 ## 1. 二叉树的种类
 
@@ -306,7 +307,7 @@ void bfs(TreeNode root) {
 - [x] [102.二叉树的层序遍历](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md)
 - [ ] [107.二叉树的层次遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 - [ ] [199.二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
-- [ ]  [637.二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
+- [ ] [637.二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
 - [ ] [429.N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
 - [ ] [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
 - [ ] [116.填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
@@ -327,5 +328,28 @@ void bfs(TreeNode root) {
 - [ ] [662. 二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) (请分别使用 BFS 和 DFS 解决，空间复杂度尽可能低)
 - [ ] [834. 树中距离之和](https://leetcode-cn.com/problems/sum-of-distances-in-tree/description/)（谷歌面试题）
 - [ ] [967. 连续差相同的数字](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/description/) (隐形树的遍历)
+- [ ] [1145. 二叉树着色游戏](https://leetcode-cn.com/problems/binary-tree-coloring-game/)（树上进行决策）
+
+### Leetcode的树
+- [x] [100.相同的树](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/100.%20%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91.md)
+- [x] [102.二叉树的层序遍历](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md)
+- [x] [104.二叉树的最大深度](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/104.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md)
+- [ ] [107.二叉树的层次遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
+- [ ] [116.填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/)
+- [ ] [117.填充每个节点的下一个右侧节点指针II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)
+- [x] [129.求根到叶子节点数字之和](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/129.%20%E6%B1%82%E6%A0%B9%E8%8A%82%E7%82%B9%E5%88%B0%E5%8F%B6%E8%8A%82%E7%82%B9%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C.md)
+- [ ] [199.二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+- [ ] [297.二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
+- [ ] [429.N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
+- [x] [513.找树左下角的值](https://github.com/zoeaaa/Algorithm-/blob/main/Tree/513.%20%E6%89%BE%E6%A0%91%E5%B7%A6%E4%B8%8B%E8%A7%92%E7%9A%84%E5%80%BC.md)
+- [ ] [515.在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
+- [ ] [589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)（熟悉 N 叉树）
+- [ ] [637.二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/)
+- [ ] [662. 二叉树最大宽度](https://leetcode-cn.com/problems/maximum-width-of-binary-tree/) (请分别使用 BFS 和 DFS 解决，空间复杂度尽可能低)
+- [ ] [834. 树中距离之和](https://leetcode-cn.com/problems/sum-of-distances-in-tree/description/)（谷歌面试题）
+- [ ] [872. 叶子相似的树]()(5.10每日一题)
+- [ ] [967. 连续差相同的数字](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/description/) (隐形树的遍历)
+- [ ] [1145. 二叉树着色游戏](https://leetcode-cn.com/problems/binary-tree-coloring-game/)（树上进行决策）
+- [ ] [987.二叉树的垂序遍历](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree/)
 - [ ] [1145. 二叉树着色游戏](https://leetcode-cn.com/problems/binary-tree-coloring-game/)（树上进行决策）
 
